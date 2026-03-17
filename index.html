@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Uicons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <!-- EmailJS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/projects.css" />
+    <title>Maurania Rayo | Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#home" class="nav-item">
+          <i class="fi fi-rr-home"></i>
+          <span class="tooltext">Inicio</span>
+        </a>
+        <a href="#projects" class="nav-item">
+          <i class="fi fi-rr-folder"></i>
+          <span class="tooltext">Proyectos</span>
+        </a>
+        <a href="#skills" class="nav-item">
+          <i class="fi fi-rr-wrench-alt"></i>
+          <span class="tooltext">Habilidades</span>
+        </a>
+        <a href="#contact" class="nav-item">
+          <i class="fi fi-rr-mail-plus-circle"></i>
+          <span class="tooltext">Contacto</span>
+        </a>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div>
+        <h1>Maurania Rayo</h1>
+        <span> < Desarrolladora Full Stack > </span>
+        <div class="linkContact">
+          <a
+            href="https://www.linkedin.com/in/mauraniarayo/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn</a
+          >
+          <a
+            href="https://github.com/MauraRayo"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+          <a
+            href="mailto:maurarayo3@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Correo electrónico</a
+          >
+          <a href="CV_Maurania_Rayo_FullStack.pdf" download>Descargar CV</a>
+        </div>
+        <div class="disponible">Disponibilidad inmediata</div>
+      </div>
+
+      <div>
+        <p>
+          Cuento con más de dos años de experiencia en desarrollo frontend,
+          trabajando con HTML, CSS, JSP, JavaScript, W2ui, Bootstrap y WordPress
+          en Jobbe ETT. Ademas he realizado prácticas en Erhardt Serikat, donde
+          he trabajado con Java, APIs REST/SOAP, JSP, JPA, Base de datos
+          relacionales. Actualmente estoy en búsqueda de una oportunidad como
+          desarrolladora Full Stack que me permita seguir creciendo
+          profesionalmente.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Proyectos Profesionales</h2>
+      <div id="professional-projects" class="projects-grid"></div>
+
+      <h2>Proyectos Personales</h2>
+      <div id="personal-projects" class="projects-grid"></div>
+    </section>
+
+    <section id="skills">
+      <h2>Habilidades Técnicas</h2>
+      <div class="skills-category">
+        <div class="skills-grid">
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+            />
+            <p>HTML</p>
+          </div>
+
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+            />
+            <p>CSS</p>
+          </div>
+
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            />
+            <p>JavaScript</p>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+            />
+            <p>Bootstrap</p>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+            />
+            <p>Java</p>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+            />
+            <p>Spring Boot</p>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+            />
+            <p>MySQL Workbench</p>
+          </div>
+
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg"
+            />
+            <p>Swagger OpenAPI</p>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
+            />
+            <p>Postman</p>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg"
+            />
+            <p>WordPress</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contacto -->
+    <section id="contact">
+      <h2>¡Escríbeme!</h2>
+      <form id="contact-form">
+        <div>
+          <label for="username">Nombre</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Tu nombre"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="email">Correo electrónico</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="tu@email.com"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="message">Mensaje</label>
+          <textarea
+            name="message"
+            id="message"
+            rows="5"
+            placeholder="Mensaje"
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">Enviar mensaje</button>
+      </form>
+
+      <div class="linkContactForm">
+        <a
+          href="https://www.linkedin.com/in/mauraniarayo/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LinkedIn</a
+        >
+        <a
+          href="https://github.com/MauraRayo"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub</a
+        >
+        <a
+          href="mailto:maurarayo3@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Correo electrónico</a
+        >
+        <a href="CV_Maurania_Rayo_FullStack.pdf" download>Descargar CV</a>
+      </div>
+    </section>
+
+    <p class="createName">Porfolio creado por Maurania Rayo</p>
+
+    <script src="app.js"></script>
+    <script src="script/project.js"></script>
+  </body>
+</html>
