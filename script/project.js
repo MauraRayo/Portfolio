@@ -49,7 +49,7 @@ const personalProjects = [
       "MSQL",
     ],
     description:
-      "Frontend de Azukre Koxkorra, cafetería online, desarrollado en Spring Boot. Proporciona una API REST para gestionar productos, pedidos y usuarios.",
+      "Frontend de Azukre Koxkorra, una cafetería online donde los usuarios pueden visualizar productos, visualizar las últimas novedades, dejar un comentario y gestionar tus preferencias.",
     img: ["img/7.png", "img/8.png", "img/16.png", "img/10.png"],
     github: "https://github.com/MauraRayo/Azukre-koxkorra-Frontend",
   },
@@ -65,7 +65,7 @@ const personalProjects = [
       "Swagger (OpenAPI)",
     ],
     description:
-      "Backend de Azukre Koxkorra, desarrollado en Spring Boot. Proporciona una API REST para gestionar productos, pedidos y usuarios.",
+      "API REST desarrollada en Spring Boot para gestionar la lógica del proyecto Azukre Koxkorra. Este backend proporciona los servicios necesarios para la aplicación frontend, incluyendo autenticación, gestión de datos y operaciones principales del sistema.",
     img: ["img/11.png", "img/12.png", "img/13.png"],
     github: "https://github.com/MauraRayo/Azukre-koxkorra-Backend",
   },
