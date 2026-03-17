@@ -292,7 +292,7 @@ button[type="submit"]:hover {
   color: var(--label);
 }
 
-/* ---  Responsive  --- */
+/* ------------------------------  Responsive  --------------------------------- */
 
 @media (max-width: 768px) {
   #home {
@@ -312,30 +312,4 @@ button[type="submit"]:hover {
   .linkContactForm a {
     display: none;
   }
-  /* 
-  .linkContact {
-    justify-content: center;
-  }
-  
-  .skill {
-    width: 80px;
-  }
-  
-  form {
-    grid-template-columns: 1fr;
-    padding: 0 10px;
-  }
-  
-  form div:nth-child(3),
-  button {
-    grid-column: 1 / 1;
-  }
-  
-  nav {
-    gap: 15px;
-    padding: 10px;
-    width: 90%;
-  }
-  
-  */
 }
